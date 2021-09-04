@@ -45,7 +45,6 @@ body{
     text-align: center;
     width: 75%;
     margin: 0 auto;
-    padding-top: 3rem;
 }
 .g{
     background-color: #d5d5d5;
@@ -178,7 +177,7 @@ footer{
         width: 100%;
         margin-top: 0.7rem;
     }
-    .navbar-nav > button{
+    .navbar-nav >a > button{
         /* display: none; */
     }
 }
