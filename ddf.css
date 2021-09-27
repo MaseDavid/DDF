@@ -13,10 +13,15 @@ body{
     font-weight: 600;
     text-transform: uppercase;
 } 
-#navbarresponsive .hope::after, .test::after , .publications::after, .donate::after , .reach::after {
+
+#y{
+    color: olivedrab;
+    font-size: 2rem;
+}
+ /* #navbarresponsive .hope::after, .test::after , .publications::after, .donate::after , .reach::after {
     content: '|';
     padding: 0  0.5em;	
- }
+ }  */
  /* body */
 .ban{
     height: 30rem;
@@ -58,6 +63,12 @@ body{
     /* background-color: rgb(206, 214, 223); */
 
 }
+
+.Aid{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto; 
+}
 .About{
     text-align: center;
     /* background-color: rgb(206, 214, 223); */
@@ -93,8 +104,8 @@ color: #d5d5d5;
     height: 40%;
 }
 .padding{
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 2rem;
 }
 
 
@@ -131,10 +142,15 @@ footer{
     body{
         font-size: 0.8rem;
     }
+
     #navbarresponsive .hope::after, .test::after , .publications::after, .donate::after , .reach::after {
         content: '|';
         padding: 0  0.5em;
         display: none;	
+     }
+
+     #y{
+         font-size: 1rem;
      }
     .social a {
         font-size: 2em;
@@ -163,6 +179,9 @@ footer{
     .ban{
         height: 20rem;
         width: 100%;
+    }
+    #y{
+        font-size: 1.2rem;
     }
     .social a {
         font-size: 2.5em;
